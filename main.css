@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of Eric Meyer reset code */
+
+li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding-right: 12px;
+	margin-top: 30px;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+.nav {
+	float: right;
+	margin-right: 40px;
+	margin-top: 30px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+#apps {
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav img {
+	
+}
+
+#sign_in {
+	background-color: #4787ED;
+	padding: 8px 14px;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+.search {
+	display: block;
+	clear: both;
+	border: 1px solid #CCCCCC;
+	width: 570px;
+	height: 28px;
+	position: relative;
+	margin: auto;
+	font: 16px Helvetica, Arial, sans-serif;
+	padding-left: 11px;
+	background-image: url('http://itsmichelleguo.files.wordpress.com/2013/11/voice.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 5%
+}
+
+#logo {
+	clear: both;
+	display: block;
+	margin: auto;
+	width: 270px;
+	padding-top: 155px;
+	padding-bottom: 26px;
+}
+
+#buttons {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.submit {
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	padding: 2px 10px;
+	margin-top: 18px;
+	font: bold 11px/20px Arial, sans-serif;
+	color: #444444;
+	background-color: #f2f2f2;
+}
+
+.submit:hover {
+	border: solid 1px #CCC;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	padding-top: 46px;
+	font-size: small;
+	text-align: center;
+}
+
+#menu {
+	color: #1155CC;
+}
+
+#menu:hover {
+	text-decoration: underline;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	clear: both;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+#footer_left {
+	float: left;
+	margin-left: 30px;
+	margin-top: 13px;
+}
+
+#footer_right {
+	float: right;
+	margin-right: 18px;
+	margin-top: 13px;
+}
+
+#footer_left a:hover {
+	text-decoration: underline;
+}
+
+#footer_right a:hover {
+	text-decoration: underline;
+}
+
+#footer_left a {
+	color: #666666;
+	padding-right: 27px;
+}
+
+#footer_right a {
+	color: #666666;
+	padding-left: 15px;
+}
+
